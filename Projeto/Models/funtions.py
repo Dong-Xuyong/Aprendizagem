@@ -47,17 +47,18 @@ def resume(df):
     summary = summary[['Name','dtypes']]  
     summary['Uniques'] = df.nunique().values
     summary['Duplicated'] = df.duplicated().sum()
-    summary['First Value'] = df.loc[0].values
-    summary['Second Value'] = df.loc[1].values
-
+    
     for name in summary['Name'].value_counts().index:
         #summary.loc[summary['Name'] == name, 'RowCount'] = str(df[name].size)
         summary.loc[summary['Name'] == name, 'Duplicated'] = df[name].duplicated().sum()
-        summary.loc[summary['Name'] == name, 'Max'] = str(df[name].max())
         summary.loc[summary['Name'] == name, 'Min'] = str(df[name].min())
+        summary.loc[summary['Name'] == name, 'Max'] = str(df[name].max())
+        
         summary.loc[summary['Name'] == name, 'Null'] = str(df[name].isnull().sum())
-        #summary.loc[summary['Name'] == name, 'Entropy'] = round(stats.entropy(df[name].value_counts(normalize=True), base=2),2) 
+        summary.loc[summary['Name'] == name, 'Entropy'] = round(stats.entropy(df[name].value_counts(normalize=True), base=2),2) 
 
+    summary['First Value'] = df.loc[0].values
+    summary['Second Value'] = df.loc[1].values
     return summary
 
 def CalcOutliers(df_num): 
