@@ -1,0 +1,38 @@
+Semana
+
+Identified lowest outliers: 0
+Identified upper outliers: 0
+Identified outliers: 0
+Non-outlier observations: 964348
+Total percentual of Outliers:  0.0
+
+Venta_hoy
+
+Identified lowest outliers: 0
+Identified upper outliers: 6540
+Identified outliers: 6540
+Non-outlier observations: 957808
+Total percentual of Outliers:  0.6828
+
+Dev_proxima
+
+Identified lowest outliers: 0
+Identified upper outliers: 1082
+Identified outliers: 1082
+Non-outlier observations: 963266
+Total percentual of Outliers:  0.1123
+
+Dev_uni_proximo
+
+Identified lowest outliers: 0
+Identified upper outliers: 3017
+Identified outliers: 3017
+Non-outlier observations: 961331
+Total percentual of Outliers:  0.3138
+
+Venta_uni_hoy
+Identified lowest outliers: 0
+Identified upper outliers: 8435
+Identified outliers: 8435
+Non-outlier observations: 955913
+Total percentual of Outliers:  0.8824
