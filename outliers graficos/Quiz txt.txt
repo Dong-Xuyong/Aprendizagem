@@ -1,0 +1,96 @@
+### 1
+A tecnologia de armazenamento evoluiu consideravelmente nos ultimos anos, acompanhando, de resto, a evolucao das TIC em geral. Numa dessas vertentes da evolucao, o armazenamento est a deixar de ser concentrado localmente (ligado diretamente ao computador), para passar a estar distribu/do em rede. Surgem assim duas grandes classes de arquiteturas de storage, conhecidas por NAS (Network Attached Storage) e SAN (Storage Area Network).
+Das seguintes descrigoes selecione todas as que, no seu entender se aplicam a arquitetura SAN.
+
+1. Acesso ao nivel de blocos, sem sistemas de ficheiros, o que implica a formatagao por parte dos clientes.
+2. Suporte de protocolos de rede rapidos para estabelecer a ligagao entre discos e o controlador.
+3. Um servidor de ficheiros remoto.
+4. Integragao de diversos tipos de volumes de armazenamento, previamente formatados.
+5. Abstracao de um sistema de ficheiros, com controlo de acesso especifico e que ndo depende dos clientes.
+
+### 2
+
+Na implementacao de um sistema de armazenamento em rede, do tipo NAS, existem
+diversas funcoes que, dada a natureza desse tipo de sistema, obrigam a ter um cuidado
+especial na configuragao. Uma dessas funcoes eh o Controlo de Acessos. Das seguintes
+descrigdes escolha aquela que, no seu entender, melhor define essa funcao (naturalmente, no contexto de um NAS).
+
+Select one:
+1. Criar grupos e utilizadores, assim como atribuir-lhes os direitos de acesso aos volumes existentes, conforme especificado.
+2. Criar volumes com o formato adequado as condicées de acesso exigidas pelos utilizadores.
+3. O Garantir que nenhum utilizador consegue ler um ficheiro, ao qual nao tem direitos de acesso.
+4. Definir grupos e utilizadores, bem como as respetivas credenciais, garantindo que a informacao é acedida apenas por quem tem direito a tal.
+
+
+### 3
+
+Os sistemas de armazenamento de dados constituem um componente fundamental dos
+Sistemas de Informacdo, sendo neles que depositamos todos os dados utilizados. Por outro lado, dado que a sua construcao recorre a pecas mecAnicas de eleva precisdo e sujeitos a diversos tipos de falhas, estes sistemas carecem sempre de uma anilise muito cuidada, no que respeita ao modelo de falhas. Um desses modelos (incluido na componente tedrica da UO) assenta num conjunto de parmetros, os quais so indiretamente referidos nas afirmagées seguintes, relativas a algumas situacdes hipotéticas. Para cada uma delas selecione o parametro que, na sua opiniao, estara associado.
+
+A implementagao do sistema de armazenamento permite aferio seu funcionamento correto, de, acordo com a especificaco, durante o tempo exigido pela aplicagao.
+
+O sistema de armazenamento esta utilizavel em 98% do tempo.
+
+O sistema de armazenamento evidencia um tempo médio de 100.000 horas até uma falha ocorrer:
+
+### 4
+
+Uma das mais conhecidas classificagdes de arquiteturas paralelas é devida a Flynn. Apesar de ter sido proposta em 1966 ela continua a ser usada, dada a sua generalidade usa os conceitos de fluxo de dadas e de fluxo de instrucGes. Esta classificagao define quatro tipos de arquiteturas e cada uma delas aplica-se, de forma eficiente, a apenas determinados tipos de aplicacoes.
+
+Para a seguinte descrigao de uma hipotética aplicacao, indique qual o tipo de arquitetura (naturalmente, segundo a classificacao de Flynn) que melhor se adapta a essa aplicacao:
+
+‘Uma aplicagéo que executa em ambiente web, e nela cada utilizador fornece um
+conjunto de dados, que incluem a sua posicao GPS; varios utilizadores deveréo poder
+usar a aplicagao em simultaneo, executando as operacées por eles solicitadas e sobre
+os dados que eles fornecem"
+
+Select one:
+
+O SIMD - Single Instruction stream, Multiple Data streams
+
+MISD - Multiple Instruction streams, Single Data stream
+
+SISD - Single Instruction stream, Single Data stream
+
+MIMD - Multiple instruction streams, Multiple Data stream
+
+### 5
+
+ 
+
+A virtualizagao é uma das tecnologias que tem vindo a ser alvo de significativos avancos, sobretudo pelo papel que tem na construcao de Data Centers e das arquiteturas de Cloud Computing. Efetivamente, sem a virtualizagao e sem a eficiéncia que esta tecnologia... promove, nao seria possivel (ou pelo menos seria muito mais dificil) construir as arquiteturas  avancadas de que dispomos hoje. Existem fundamentalmente dois tipos de virtualizacao: Tipo 1, ou standalone, quando o VMM 6 instalado diretamente sobre o hardware; e Tipo 2, ou hosted, quando o sistema de virtualizacao (VMM) é instalado sobre um Sistema Operativo. Existe ainda a possibilidade de solucoes hibridas, mas cujas propriedades sao, obviamente, partilhadas com os dois tipos referidos.Das seguintes afirmac6es assinale todas as que, na sua opiniao, descrevem vantagens das solugées do Tipo 1, face as do Tipo 2.
+
+ 
+Nota: neste tipo de questao a escolha de descricoes erradas implicam penalizacoes.
+
+Select one or more:
+
+© Maior eficiéncia na gestao dos recursos virtuais, ao usar as fungdes de gestéo do
+Sistema Operativo.
+
+© Maior facilidade na escolha do Sistema Operativo de arranque.
+
+© Melhor controlo dos recursos fisicos, nao tendo que partilhar essa fungéo com o
+Sistema Operativo; i.e, imune aos eventuais erros ou falhas do Sistema Operativo.
+
+© Melhor desempenho das maquinas virtuais, por existir menos um n{vel de abstra¢ao.
+
+O Maior facilidade de configuragéo da VMM por parte do utilizador (utilizando uma
+aplicagao no host)
+
+### 6
+
+
+O conceito de Cloud Computing tem vindo a receber enorme atencao de todos os setores de atividade, assistindo-se a alguma pressdo para “passar as fun¢ées TI para a cloud”. No entanto, nem todas as situacoes justificam essa mudanga e, sobretudo, diferentes objetivos e culturas tecnologicas, recomendam a adocao de diferentes tipos de Clouds. Neste exercicio é Ihe pedido que, para a descricao seguinte, escolha a solugéo de Cloud que, na sua opiniao, melhor se adapta - apenas uma resposta é considerada correta.
+
+- Tenho cédigo das minhas aplicagdes ja desenvolvido e pretendo portar esse codigo para outra linguagem; poderei querer, no futuro, passar a aplicagao para um servidor proprio (privado).
+
+Select one:
+
+PaaS
+Cloud Privada
+SaaS
+Cloud Hibrida
+Cloud Publica
+laaS
+XaaS.
